@@ -1,0 +1,71 @@
+export const projects = [
+  {
+    id: 'echoes',
+    lab: 'GAME LAB',
+    number: '01',
+    title: 'ECHOES OF THE VALLEY',
+    type: 'Endless Runner',
+    summary: 'An endless runner game built and deployed using Unreal Engine.',
+    role: 'Game Development',
+    engine: 'Unreal Engine',
+    focus: ['Gameplay', 'Mechanics', 'Level / Environment', 'Interactive Systems'],
+    visualClass: 'visual-valley',
+    images: [
+      { src: '/game-screenshots/echoes-01.png', alt: 'Echoes of the Valley main menu', label: 'Main menu' },
+      { src: '/game-screenshots/echoes-02.png', alt: 'Forest environment from Echoes of the Valley', label: 'Forest environment' },
+      { src: '/game-screenshots/echoes-03.png', alt: 'Forest path and water in Echoes of the Valley', label: 'Forest path' },
+      { src: '/game-screenshots/echoes-04.png', alt: 'Runner gameplay with score display in Echoes of the Valley', label: 'Gameplay' },
+    ],
+    url: 'https://nkverse.itch.io/echoes-of-the-valley',
+    githubUrl: 'https://github.com/NavpreetKaur-cs/Endless_Runner',
+  },
+  {
+    id: 'last-student',
+    lab: 'GAME LAB',
+    number: '02',
+    title: 'THE LAST STUDENT',
+    type: 'Horror Game',
+    summary: 'A horror game built and deployed using Unreal Engine.',
+    role: 'Game Development',
+    engine: 'Unreal Engine',
+    focus: ['Gameplay', 'Mechanics', 'Atmosphere', 'Interactive Experience'],
+    visualClass: 'visual-student',
+    images: [
+      { src: '/game-screenshots/last-student-01.png', alt: 'The Last Student main menu in a dark college hallway', label: 'Main menu' },
+      { src: '/game-screenshots/last-student-02.png', alt: 'A dark reception area inside The Last Student', label: 'Opening cutscene' },
+      { src: '/game-screenshots/last-student-03.png', alt: 'Story cutscene at a desk in The Last Student', label: 'College reception' },
+      { src: '/game-screenshots/last-student-04.png', alt: 'A dim department reception in The Last Student', label: 'Department Exploration' },
+    ],
+    url: 'https://nkverse.itch.io/the-last-student',
+    githubUrl: 'https://github.com/NavpreetKaur-cs/The-Last-Student',
+  },
+  {
+    id: 'revesto',
+    lab: 'DEV LAB',
+    number: '03',
+    title: 'REVESTO',
+    type: 'Platform / Full-stack',
+    summary: 'A platform combining rental, resale, and contests in one system.',
+    role: 'Software Development',
+    engine: 'Node.js',
+    focus: ['Rental', 'Resale', 'Contests'],
+    visualClass: 'visual-revesto',
+    githubUrl: 'https://github.com/NavpreetKaur-cs/resale-rent-project',
+  },
+]
+
+export const skillGroups = [
+  {
+    title: 'AI / ML',
+    note: 'Currently exploring',
+    items: ['Python', 'NumPy', 'Pandas', 'scikit-learn', 'Computer Vision', 'NLP'],
+  },
+  {
+    title: 'GAME DEVELOPMENT',
+    items: ['Unreal Engine 5', 'Blueprints', 'C++', 'Blender'],
+  },
+  {
+    title: 'SOFTWARE DEVELOPMENT',
+    items: ['Node.js', 'Express', 'MongoDB', 'JWT', 'REST APIs'],
+  },
+]
