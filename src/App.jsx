@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { Analytics } from '@vercel/analytics/react'
 import { projects, skillGroups } from './data/projects'
 import './App.css'
 
@@ -282,6 +283,7 @@ function App() {
       </main>
 
       <footer><a className="brand" href="/">N//K</a><span>BUILDING WORLDS, PRODUCTS & SOFTWARE</span><span>SYSTEM STATUS: ONLINE</span></footer>
+      <Analytics />
     </div>
   )
 }
